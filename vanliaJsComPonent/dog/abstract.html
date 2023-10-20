@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div id="app"></div>
+        <script>
+            // class내부의 this는 Component 자신을 가르킨다. constructor얘는 새로 생성될 인스턴스를 this가 바인딩
+            class Component {
+                $target;
+                state;
+                constructor($target) {
+                    this.$target = $target;
+                    // document.querySelector('#app') === $target;
+                    // 함수는 어디서 선언됐느냐가 중요 x 어디서 선언 어휘적o
+                    this.setup();
+                    // Component 클래스안에 선언된 프로퍼티 state가 이 함수를 실행시킴으로 서 최신화
+                    this.render();
+                    // render의 렉시컬환경에 최신화된 state가 있음
+                }
+                setup() {}
+                template() {
+                    return "";
+                }
+                render() {
+                    this.$target.innerHTML = this.template();
+                    // this.#app.innerHTML = this.template == 출력담당
+                    this.setEvent();
+                    // 이벤트리스너를 추가하는 로직을 담은 함수 실행
+                }
+                setEvent() {}
+                setState(newState) {
+                    // 상태는 setState로만 변경된다
+                    this.state = { ...this.state, ...newState };
+                    // 이 함수 실행시 렌더함수 다시 실행
+                    this.render();
+                }
+            }
+
+            class App extends Component {
+                setup() {
+                    this.state = { items: ["item1", "item2"] };
+                }
+                template() {
+                    const { items } = this.state;
+                    // 이게 실행될때는 최신화된 state의 프로퍼티 키 items를 참조가능
+                    return `
+        <ul>
+        ${items.map((item) => `<li>${item}</li>`).join("")}
+        </ul>
+        <button>추가</button>
+    `;
+                }
+
+                setEvent() {
+                    this.$target
+                        .querySelector("button")
+                        .addEventListener("click", () => {
+                            const { items } = this.state;
+                            this.setState({
+                                items: [...items, `item${items.length + 1}`],
+                            });
+                        });
+                }
+            }
+
+            new App(document.querySelector("#app"));
+            // 인스턴스 생성
+            // 컴포넌트 코드의 사용 방법을 강제할 수 있기 때문에 코드를 유지보수하고 관리할 때 매우 이롭다.
+        </script>
+    </body>
+</html>
