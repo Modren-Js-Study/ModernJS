@@ -3,7 +3,6 @@
 [4장. 변수](#모딥다-4장-변수) <br/>
 [5장. 표현식과 문](#모딥다-5장-표현식과-문)<br/>
 [6장. 데이터 타입](#모딥다-6장-데이터-타입)<br/>
-[6장. 데이터 타입](#테스트)<br/>
 
 <br/>
 <br/>
@@ -219,8 +218,7 @@ score = 90;
 - 식별자는 특수문자를 제외한 문자, 숫자, 언더스코어(_), 달러 기호($)를 포함할 수 있다.
 - 단 **식별자는** 특수 문자를 제외한 문자, _, $로 시작해야 하며 **숫자로 시작할 수는 없다.**
 - **예약어**는 식별자로 사용할 수 없다.
-
-![image](https://github-production-user-asset-6210df.s3.amazonaws.com/82005305/277096391-c18361b5-2585-47c5-b89e-8992202093b7.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231021%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231021T081358Z&X-Amz-Expires=300&X-Amz-Signature=dd37d8600bffc1c5fd595910e87c24524e5e75761e81e50c68b9d8eec9c8a1c8&X-Amz-SignedHeaders=host&actor_id=82005305&key_id=0&repo_id=692482004)
+![image](https://github.com/Modren-Js-Study/modernJs/assets/82005305/d855916f-5ad2-49a9-845d-fd2604bde2e7)
 <sup>[출처 : 모던자바스크립트 딥다이브]</sup>
 
 - 식별자 네이밍을 할 때는 변수의 존재 목적을 쉽게 이해할 수 있도록 지어야 하며 만약 주석이 필요하다면 존재 목적을 명확히 드러내지 못한 것이므로 좋지 않은 이름이라고 할 수 있다.
@@ -425,7 +423,7 @@ x = 1 + 2 // 3이라는 값으로 평가될 수 있으므로 표현식, 완전�
 
 JavaScript ES6는 7개의 데이터 타입을 제공하는데 이는 **원시타입**과 **객체 타입**으로 분류된다.
 
-![Untitled](https://github-production-user-asset-6210df.s3.amazonaws.com/82005305/277099233-b2afdd11-3cad-4662-8d68-43172292ada0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231021%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231021T091520Z&X-Amz-Expires=300&X-Amz-Signature=80e89ab0098eff3614b0a1687d1375a54c97f1ed1e985c3ddbd02923feb82c95&X-Amz-SignedHeaders=host&actor_id=82005305&key_id=0&repo_id=692482004)
+![image](https://github.com/Modren-Js-Study/modernJs/assets/82005305/e58ea799-47de-4816-93d8-ad0c1e27fd40)
 <sup>[출처 : 모던 자바스크립트 딥다이브]</sup>
 
 ```jsx
@@ -510,8 +508,8 @@ string = "큰따옴표로 감싼 문자열 내의 '작은따옴표'는 문자열
     4-1. 멀티라인 문자열
     
     - 일반 문자열 내에서는 개행이 허용되지 않기 때문에 일반 문자열에서 표현할 때는 아래와 같이 **이스케이프 시퀀스**를 사용해야 한다.
-    
-    ![Untitled](https://github-production-user-asset-6210df.s3.amazonaws.com/82005305/277099304-6b80b223-76af-4ea7-b8be-d09121e832c1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231021%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231021T091652Z&X-Amz-Expires=300&X-Amz-Signature=982c437a4a56e07c6c0a427846cf1647b73aadab0c8c7923ab346dae022a4d3f&X-Amz-SignedHeaders=host&actor_id=82005305&key_id=0&repo_id=692482004)
+
+    ![image](https://github.com/Modren-Js-Study/modernJs/assets/82005305/9daa6612-50eb-48b2-b5ba-b218856f114a)
     <sup>[출처 : 모던 자바스크립트 딥다이브]</sup>
 
     - 예제
