@@ -5,3 +5,4 @@
 [Jeongmmin](https://github.com/Jeongmmin)
 
 1주차 -- 04 변수, 05 표현식과 문, 06 데이터타입 ✔ 
+발표자: 한덕수
