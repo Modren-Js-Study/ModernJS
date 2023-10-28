@@ -2,14 +2,19 @@ var a = 1;
 
 while (true) {
     a++;
-    if (a === 2) {
+    if (a === 1) {
+        console.log(a);
+    } else if (a === 2) {
         console.log(a);
     } else if (a === 3) {
         console.log(a);
     } else if (a === 4) {
         console.log(a);
+    } else if (a === 5) {
+        console.log(a);
+        break;
     }
-    // if ...else if는 원하는대로 동작하지 않습니다. 이유는?
+    // if ...else if문을 a === 5 break; 까지 한다면 원하는대로 a === 5가될 때 멈추지 않습니다 이유는?
     if (a === 3) {
         console.log(a);
     }
@@ -20,7 +25,6 @@ while (true) {
         break;
     }
 }
-
 
 for (var i = 2; i <= 9; i++) {
     for (var j = 1; j <= 9; j++) {
