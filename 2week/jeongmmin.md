@@ -1,4 +1,4 @@
-### 1. 위 코드를 실행 시 console.log의 결과값은 무엇일까요?
+## 1. 아래 코드 실행 시 console.log의 결과값은 무엇일까요?
 
 ```jsx
 let c = 0;
@@ -33,7 +33,7 @@ console.log(c);
 <details>
 <summary>추가문제</summary>
 
-### 아래 코드를 실행 시 console.log의 결과값은 무엇일까요?
+##  아래 코드를 실행 시 console.log의 결과값은 무엇일까요?
 ```jsx
 
     let d = 3;
@@ -76,7 +76,7 @@ console.log(c);
 <br/>    
 <br/>    
 
-### 2. 위 코드를 실행 시  console.log의 결과값은 무엇일까요?
+## 2. 아래 코드 실행 시  console.log의 결과값은 무엇일까요?
 
 ```jsx
 
