@@ -46,7 +46,7 @@ inner함수의 렉시컬 스코프는 return a++; <-
 
 그 값은 수집 대상에 포함시키지 않는다.
 
-![스크린샷 2023-11-16 오전 3.13.00.png](..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2Fxl%2Fqb8f9v6n5z7csmqy5rjxqx240000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_k8SvJ8%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202023-11-16%20%EC%98%A4%EC%A0%84%203.13.00.png)
+![스크린샷 2023-11-16 오전 3.48.25.png](%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202023-11-16%20%EC%98%A4%EC%A0%84%203.48.25.png)
 
 console.dir(a)를 찍어보면 scope가 나오는데 확인 해보면
 
