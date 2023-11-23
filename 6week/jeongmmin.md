@@ -15,7 +15,7 @@ console.log(person1.__proto__ === person2.__proto__);
 
 ```
 
-위의 코드는 true가 나오게 됩니다. person1의 sayHello함수와 person2 sayHello함수가 같도록 만드려면 코드를 어떻게 수정해야 할까요?
+위의 코드는 false가 나오게 됩니다. person1의 sayHello함수와 person2 sayHello함수가 같도록, 결과가 true가 나오게 만드려면 코드를 어떻게 수정해야 할까요?
 <br/>
 (프로토 타입을 사용하여 만들어주세요)
 
