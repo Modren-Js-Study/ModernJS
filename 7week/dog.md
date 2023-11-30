@@ -58,7 +58,7 @@ delayed 함수 실행 컨텍스트를 생성하고 현재 실행 중인 실행 �
 {
 함수 실행컨텍스트, 즉 실행되는 함수 내부의 환경을 통틀어 Lexical Environment라고 부르고, 
 Lexical Environment는 각 Environment Record(환경 레코드)를 참조하는 형태입니다.
-
+```jsx
 // const 환경 레코드 = (환경 레코드는 두 가지 유형으로 나뉩니다). => { 
     Declarative Environment Record: 란 실제 변수와, 실제 함수 선언을 포함하며, 실제 값을 저장하는 구조입니다.
     Object Environment Record: 객체의 프로퍼티를 참조하는데 사용되며, 프로퍼티의 값을 실제로 저장하지는 않습니다.
@@ -67,7 +67,7 @@ Lexical Environment는 각 Environment Record(환경 레코드)를 참조하는 
       Object Environment Record
     }
 } 
-
+```
 상위 컨텍스트의 Lexical Environment에 대한 참조는 OuterEnvironment Reference가 담당합니다.
 스코프 체인이 가능한 이유는 Lexical Environment의 두 번째 수집 자료구조인 OuterEnvironment Reference가 담당합니다 OuterEnvironment Reference를 통해
 상위 Lexical Environment에 연결됩니다. 이 연결된 구조를 통해 함수는 자신의 스코프 및 외부 함수의 스코프에 있는 변수에 접근할 수 있습니다.
