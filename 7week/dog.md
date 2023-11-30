@@ -2,24 +2,31 @@
 
 ```jsx
 console.log('Global Context');
+
 function outer() {
   console.log('Outer Function');
   const variable1 = 'I am from outer!';
+
   function middle() {
     console.log('Middle Function');
     const variable2 = 'I am from middle!';
+
     function inner() {
       console.log('Inner Function');
       const variable3 = 'I am from inner!';
+
         setTimeout(function delayed() {
               console.log('Delayed Function');
               console.log(variable1);
               console.log(variable2);
               console.log(variable3);
-               }, 1000); }
-                inner(); }
-                middle(); }
-                outer();
+               }, 1000);
+ }
+         inner();
+}
+    middle();
+}
+ outer();
 ```
 
 2.
