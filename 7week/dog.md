@@ -1,6 +1,6 @@
 1. 실행 순서는?
 
-```
+```jsx
 console.log('Global Context');
 function outer() {
   console.log('Outer Function');
@@ -24,7 +24,7 @@ function outer() {
 
 2.
 
-```
+```jsx
 
 function outer(x) {
  return function middle(y) {
