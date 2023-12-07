@@ -31,6 +31,7 @@ function createCounter() {
 
 const counter1 = createCounter();
 const counter2 = createCounter();
+
 counter1();
 counter2();
 counter1();
@@ -39,3 +40,6 @@ a) 1 1 2
 b) 1 1 1
 c) 1 2 3
 d) 1 2 1
+정독감
+
+
