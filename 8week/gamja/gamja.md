@@ -1,1 +1,1 @@
-노션으로 진행 예정, 발표 후 발표한 문제들만 정리하겠습니다
+### [JS랜덤퀴즈쇼](https://thin-bonsai-dfc.notion.site/JS-f4e0b5036cae47c4b9f40a68c6fbb077?pvs=4)
