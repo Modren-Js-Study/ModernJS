@@ -1,1 +1,1 @@
-### [JS랜덤퀴즈쇼](https://thin-bonsai-dfc.notion.site/JS-f4e0b5036cae47c4b9f40a68c6fbb077?pvs=4)
+# [🎰JS랜덤퀴즈쇼🎰](https://thin-bonsai-dfc.notion.site/JS-f4e0b5036cae47c4b9f40a68c6fbb077?pvs=4)
