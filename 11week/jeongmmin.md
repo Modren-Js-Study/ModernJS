@@ -4,7 +4,7 @@
 2.  event.preventDefault()는 이벤트의 기본 동작을 취소한다.
 3. addEventListener 메소드의 세 번째 파라미터가 true일 경우, 이벤트 버블링 단계에서 이벤트 핸들러가 동작한다.
 4. addEventListener 메서드에 전달한 인수와 removeEventListener 메서드에 전달한 인수가 일치하지 않으면 이벤트 핸들러가 제거되지 않는다.
-5. 무명함수를 여부와 관계없이 removeEventListener 메서드는 이벤트 핸들러를 제거할 수 있다.
+5. 무명함수 여부와 관계없이 removeEventListener 메서드는 이벤트 핸들러를 제거할 수 있다.
 
 
 
