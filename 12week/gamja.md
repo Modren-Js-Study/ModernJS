@@ -6,7 +6,7 @@ function dog() {
 }
 
 function jeong() {
-    console.log('냥');
+    console.log('뀨');
 }
 
 setTimeout(dog, 0);
